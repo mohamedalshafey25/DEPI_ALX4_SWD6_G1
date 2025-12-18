@@ -8,7 +8,7 @@ public class Student {
     public int age;
 
     private boolean isLoggedIn = false;
-    private final String USERNAME = "studentUser";
+    private String USERNAME = "studentUser";
     private final String PASSWORD = "studentPass123";
 
     // methods
@@ -26,7 +26,13 @@ public class Student {
         }
     }
 
-
+    public void setUsername (String username) {
+        if (username.toLowerCase().contains("#")) {
+            System.out.println("Invalid username");
+        } else {
+            USERNAME = username;
+        }
+    }
 
 
 }

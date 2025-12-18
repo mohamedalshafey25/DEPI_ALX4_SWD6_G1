@@ -29,6 +29,7 @@ public class HelloProgram_class1 {
         student3.name = "Ahmed";
         student3.age = 50;
         student3.study();
+        student3.setUsername("Mohamed");
 
         Teacher t1 = new Teacher();
         Teacher t2 = new Teacher();
@@ -37,6 +38,7 @@ public class HelloProgram_class1 {
         t1.name = "sayed";
         t1.teach();
         t1.instruct();
+
 
         Student st4 = new Student();
         st4.login("studentUser", "studentPass123");
