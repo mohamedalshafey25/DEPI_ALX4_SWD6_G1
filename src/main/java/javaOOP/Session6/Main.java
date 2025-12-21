@@ -1,4 +1,4 @@
-package javaBasics_package1.Session6;
+package javaOOP.Session6;
 
 public class Main {
     public static void main(String[] args) {
