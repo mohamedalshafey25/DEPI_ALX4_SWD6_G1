@@ -1,4 +1,4 @@
-package javaBasics_package1.Session5;
+package javaBasics_package1.session5;
 
 public class Loops_Continued {
     public static int balance = 10000;
